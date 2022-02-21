@@ -16,14 +16,14 @@ const BannerPage = () => {
                     <p>Want to get professional knowledge in the fast-developing IT sphere? Pract offers a wide variety of online courses for everyone willing to enter the world of information technologies.</p>
                 </div>
             </div>
-            <div className="row justify-content-center align-items-center pt-2">
-                <div className="col-3 ButtonsRow">
+            <div className="row justify-content-center align-items-center pt-2 g-3">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ButtonsRow">
                     <button className='rounded-pill'>Design</button>
                 </div>
-                <div className="col-3 ButtonsRow">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ButtonsRow">
                     <button className='rounded-pill'>Programming</button>
                 </div>
-                <div className="col-3 ButtonsRow">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ButtonsRow">
                     <button className='rounded-pill'>Marketing</button>
                 </div>
             </div>

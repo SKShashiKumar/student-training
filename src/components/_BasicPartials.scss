@@ -1,13 +1,14 @@
 // Fonts
 $fontOpen : 'Open Sans', sans-serif;
 $fontRobo : 'Roboto', sans-serif;
+$fontMont : 'Montserrat', sans-serif;
 
 // Color
-$colorPink : rgb(214,178,207);
-$colorLav : rgb(238,222,235);
+$mainColor : #f1c50e;
+
 
 @mixin buttons {
-    background-color: gold;
+    background-color: #f1c50e;
     border: none;
     padding: 10px 30px;
     text-transform: uppercase;

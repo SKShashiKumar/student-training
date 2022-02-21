@@ -1,0 +1,64 @@
+@import '../BasicPartials';
+
+.MeetOutTeam{
+    .MainHeading{
+        text-align: center;
+        h1{
+            font-family: $fontMont;
+            font-size: 2.7rem;
+        }
+    }
+    .Testinomials{
+        padding: 5% 8%;
+    }
+    @media screen and (max-width:767px) {
+        padding: 5% 12%;
+    }
+}
+
+.Testinomial{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:10% 10%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    img{
+        height: 190px;
+        width: 190px;
+        border-radius: 50%;
+        border:10px solid $mainColor;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .subHeading{
+        font-size: 1.7rem;
+    }
+    .fa-brands{
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width:1199px) {
+        img{
+            height: 150px;
+            width: 150px;
+        }
+    }
+    @media screen and (max-width:991px) {
+        img{
+            height: 190px;
+            width: 190px;
+        }
+    }
+    @media screen and (max-width:576px) {
+        img{
+            height: 160px;
+            width: 160px;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .subHeading{
+            font-size: 1.3rem;
+        }
+    }
+}

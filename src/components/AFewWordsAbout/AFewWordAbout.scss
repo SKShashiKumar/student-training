@@ -1,0 +1,39 @@
+@import '../BasicPartials';
+.AFewWordAbout{
+    padding:5% 8%;
+    .ImgCard{
+        padding: 3% 3%;
+        color: white;
+        background-color: $mainColor;
+        img{
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        .fa-arrow-right-long{
+            font-size: 3rem;
+        }
+    }
+    .Cards{
+        text-align:center;
+        padding-top: 5%;
+        .CardHeading{
+            font-size:3rem;
+            font-family:$fontMont;
+            font-weight:600;
+            color:$mainColor;
+        }
+        .CardSubHeading{
+            font-size:1rem;
+            font-weight:500;
+            letter-spacing: 1.5px;
+        }
+        .CardDesc{
+            font-size: 1.1rem;
+        }
+    }
+
+}

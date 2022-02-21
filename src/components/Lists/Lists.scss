@@ -1,0 +1,24 @@
+@import '../BasicPartials';
+
+.Lists{
+    padding:5% 8%;
+    .container{
+        background-color: whitesmoke;
+        padding: 2% 3%;
+        .ListContents{
+        padding: 2% 3%;
+
+            h4{
+                font-weight: 700;
+            }
+            hr{
+                color: $mainColor;
+                opacity: 1;
+                height: 1.5px;
+            }
+            li{
+                padding-top: 5%;
+            }
+        }
+    }
+}

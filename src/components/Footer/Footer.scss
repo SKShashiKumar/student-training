@@ -1,4 +1,78 @@
 @import '../BasicPartials';
 .Footer{
-    
+    padding: 3% 8%;
+    form{
+        padding: 15% 5%;
+        background-color: $mainColor;
+        height: 100%;
+    }
+    input,textarea{
+        background-color: $mainColor;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 0%;
+        &:hover,&:focus{
+            outline: none;
+            box-shadow:none !important;
+            background-color: $mainColor;
+            border-bottom: 2px solid black;
+        }
+    }
+    .submitButton{
+        button{
+            border: none;
+            background-color: whitesmoke;
+            width: 100%;
+            padding: 15px;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+
+        }
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .FirstRow{
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.1rem;
+        font-family: $fontMont;
+        h5{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: $mainColor;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+    }
+    .SecondRow{
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.1rem;
+        font-family: $fontMont;
+        h5{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: $mainColor;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+    }
+    .ThirdRow{
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.1rem;
+        font-family: $fontMont;
+        h5{
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: $mainColor;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+    }
 }

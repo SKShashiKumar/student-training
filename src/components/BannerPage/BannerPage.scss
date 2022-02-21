@@ -1,0 +1,55 @@
+@import '../BasicPartials';
+
+.BannerPage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0%;
+    padding: 0% ;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('../assets/Banner.jpeg');
+    background-position: 50% 50%;
+    color: white;
+    text-align: center;
+    padding: 12% 20% 12% 20%;
+
+    .MainHeading{
+        h1{
+            font-size: 4.5rem;
+            font-family: $fontRobo;
+            font-weight: 600;
+        }
+    }
+    .SubHeading{
+        padding-top: 2%;
+        h6{
+            font-size: 2rem;
+        }
+    }
+    .somePadding{
+        padding: 1% 20% 12% 20%;
+        p{
+            font-size: 1.1rem;
+        }
+    }
+    .ButtonsRow{
+        button{
+            @include buttons;
+        }
+    }
+
+
+    @media screen and (max-width:767px) {
+        h1{
+            font-size: 3rem;
+        }
+        h6{
+            font-size: 1.5rem;
+        }
+        .somePadding{
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+}

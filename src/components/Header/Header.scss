@@ -1,0 +1,65 @@
+@import '../BasicPartials';
+.Header{
+    padding: 20px;
+    
+    .SamsungLogo{
+        height: 30px;
+        width: 200px;
+    }
+    .fa-bars{
+        font-size: 30px;
+    }
+
+    .overlay{
+        position: fixed;
+        opacity: 0;
+        transition: 500ms ease-in-out;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .5);
+        pointer-events: none;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        pointer-events: all;
+        z-index: 4;
+    }
+
+    .SideMenu{
+        position: fixed;
+        top: 0px;
+        left: 10px;
+        display: block;
+        cursor: pointer;
+        width: 300px;
+        height: 100vh;
+        background-color: black;
+        font-family: $fontRobo;
+        z-index: 5;
+        transition: 500ms ease-in-out;
+        .col-12{
+            margin: 1px;
+            padding: 10px 20px; 
+            color: white;
+            text-align: center;
+            &:first-child{
+                font-size: 25px;
+                text-align: right;
+            }
+        }
+    }
+
+
+    @media screen and (max-width:767px) {
+        .SamsungLogo{
+            height: 20px;
+            width: 150px;
+        }
+        .fa-bars{
+            font-size: 25px;
+        }
+    }
+}

@@ -9,16 +9,16 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <form action="#">
             <div className="mt-4">
-              <input type="text" className="form-control" placeholder="Enter your name"/>
+              <input type="text" className="form-control" placeholder="Enter your name" required pattern="^[a-zA-Z\d]{5,25}$"/>
             </div>
             <div className="mt-4">
-              <input type="email" className="form-control" placeholder="Enter valid email address"/>
+              <input type="email" className="form-control" placeholder="Enter valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
             </div>
             <div className="mt-4">
-              <input type="tel" className="form-control" placeholder="Enter your phone number (+91 9876543210)"/>
+              <input type="tel" className="form-control" placeholder="Enter your phone number (+91 9876543210)" required pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$"/>
             </div>
             <div className="mt-4">
-              <textarea className="form-control" rows="4"></textarea>
+              <textarea className="form-control" rows="4" required></textarea>
             </div>
             <div className="mt-4 submitButton">
               <button>Submit</button>
